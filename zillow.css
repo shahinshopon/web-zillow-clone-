@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+scroll-behavior: smooth;
+margin: 0;
+}
+
+.font{
+  font-size: 0.9rem;
+  transition: 0.4s;
+  color: black;
+}
+
+.banner-container{
+  height: 85vh;
+}
+
+.banner-text-title{
+  text-align: center;
+  font-size: 340%;
+  font-weight: bold;
+  color: white;
+  padding-top: 30px;
+}
+
+.banner-text-des{
+  text-align: center;
+  font-size: 150%;
+  color: white;
+}
+
+p{
+  font-size: 25px;
+  font-weight: bold;
+}
+.hr-short{
+  width: 150px;
+  color: brown;  
+}
+.card{
+  transform: 0.4s;
+}
+.card:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
+}
